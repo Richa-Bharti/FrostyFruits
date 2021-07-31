@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="utf-8">
+
+    <meta name="description" content="FrostyFruits">
+    <meta name="authors" content="Richa Bharti">
+
+    <title >
+        FrostyFruits
+    </title>
+    <link rel="icon" href="Images/logo4.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js" ></script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+          document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0.8)";
+          document.getElementById("underlay").style.height = "80px";
+          document.getElementById("logo").style.width = "80px";
+          document.getElementById("logo").style.margin = "0px";
+          document.getElementById("list-container").style.padding = "0px";
+          document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
+        }
+        else{
+          document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0)";
+          document.getElementById("underlay").style.height = "100px";
+          document.getElementById("logo").style.width = "150px";
+          document.getElementById("logo").style.margin = "20px";
+          document.getElementById("list-container").style.paddingTop = "50px";
+          document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
+        }
+      })
+    </script>
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <div id="underlay">
+        <img id="logo" src="Images/logo3.png" alt="">
+        <div id="list-container">
+          <ul id=navlist>
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href ="#quote">about</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="#footer">assistance</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="preview">
+      <div class="overlay">
+          <div class="slogan">
+            <H1>High Quality Products With Outstanding Services</H1>
+          </div>
+      </div>
+
+      <div class="seperator1"></div>
+    </section>
+
+
+    <section class="content">
+        <p id="quote">“Our Mission”
+          <br>
+          To serve the community with exemplary and sterling services and exhibit responsible array of business towards nature. we ensure upbeat services that reflects our values and dedication for costumer problems.
+          Today after years of working in the field we can proudly proclaim, we are a complete slot of cold storage services.
+        </p>
+        
+      <p class="para">FrostyFruits is not just a cold storage industry, we are a place to preserve and protect the laurels of nature. 
+        The Kashmir Valley is known for its high-grade apples and we at FrostyFruits refuge its freshness but convert it into possession of pleasure.
+         We offer dedicated warehouse services and freeze storage solutions.
+         We procure the latest technological equipment and vast storage services for a wide range of customer assistance.<br><br>
+         We respect our values and thoughtfully approach our profession and encourage new paths to development.
+          We respect our work and employees and we can proudly proclaim ' We are a big happy family . <br> <br></p>
+    </section>
+    
+
+    <section>
+      <div class="seperator2"></div>
+    </section>
+
+    <section id="lower">
+        <div class="left">
+          <div class="container1">
+            <div class="front">
+              <img src="Images/logo3.png" alt="">
+            </div>
+            <div class="back">
+            
+            </div>
+          </div>
+        </div>
+          <div class=lowlist>
+            <h2>Who We Serve</h2>
+            <ul>
+              <li><a href="#">Producers</a></li>
+              <li><a href="#">Retailers</a></li>
+              <li><a href="#">Food Service Provide</a></li>
+              
+            </ul>
+          </div>
+          <div class=lowlist>
+            <h2>What We Do</h2>
+            <ul>
+              <li><a href="#quote">Supply Chain Solutions</a></li>
+              <li><a href="#quote">Technology</a></li>
+              <li><a href="#quote">Transportation</a></li>
+              <li><a href="#quote">Facilities</a></li>
+          
+            </ul>
+          </div>
+          
+          <div class=lowlist>
+            <h2>Company</h2>
+            <ul>
+              <li><a href="#quote">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+    </section>
+
+    <div class="topbutton-container">
+      <a id="topbutton" href="#preview">Scroll To Top</a>
+    </div>
+    
+    <footer id="footer">
+      <div class="container">
+        <p>Copyright &copy; <span id="fruits">FrostyFruits</span> 2021 | Designed and Developed by Richa Bharti</p>
+      </div>
+    </footer>
+  </body>
+</html>

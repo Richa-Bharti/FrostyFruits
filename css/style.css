@@ -454,9 +454,12 @@ a.active ,a:hover{
 }
 
 .topbutton-container{
-  margin: 1vh;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
+  position: sticky;
+  top: 50vh;
+  z-index: 10;
 }
 
 #footer .container{

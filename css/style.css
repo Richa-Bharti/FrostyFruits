@@ -499,12 +499,9 @@ flex-direction: column;
 }
 
 .topbutton-container{
-  width: 100%;
+  margin: 1vh;
   display: flex;
-  justify-content: end;
-  position: sticky;
-  top: 50vh;
-  z-index: 10;
+  justify-content: flex-end;
 }
 
 #footer .container{

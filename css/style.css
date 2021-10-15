@@ -419,7 +419,8 @@ flex-direction: column;
 .bttn {
   justify-content: center;
   margin: 3% 0% 0% 45%;
-  padding-bottom: 20px;
+
+  padding-botton: 20px;
 }
 #lower{
   background: #111;

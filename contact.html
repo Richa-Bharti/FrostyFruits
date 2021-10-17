@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    
-    <meta charset="utf-8">
 
-    <meta name="description" content="FrostyFruits">
-    <meta name="authors" content="Richa Bharti">
+<head>
 
-    <title >
-        FrostyFruits
-    </title>
-    <link rel="icon" href="Images/logo4.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
-    <script src="https://code.jquery.com/jquery-3.5.0.js" ></script>
-    <script type="text/javascript">
-      $(window).on('scroll', function(){
-        if($(window).scrollTop()){
-          document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0.8)";
-          document.getElementById("underlay").style.height = "80px";
-          document.getElementById("logo").style.width = "80px";
-          document.getElementById("logo").style.margin = "0px";
-          document.getElementById("list-container").style.padding = "0px";
-          document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
-        }
-        else{
-          document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0)";
-          document.getElementById("underlay").style.height = "100px";
-          document.getElementById("logo").style.width = "150px";
-          document.getElementById("logo").style.margin = "20px";
-          document.getElementById("list-container").style.paddingTop = "50px";
-          document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
-        }
-      })
-    </script>
-  </head>
+  <meta charset="utf-8">
 
-  <body>
+  <meta name="description" content="FrostyFruits">
+  <meta name="authors" content="Richa Bharti">
 
-    <nav id="navbar">
-      <div id="underlay">
-        <img id="logo" src="Images/logo3.png" alt="">
-        <div id="list-container">
-          <ul id=navlist>
-            <li><a href="index.html" class="active">home</a></li>
-            <li><a href="index.html">about</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <li><a href="#footer">assistance</a></li>
-          </ul>
-        </div>
+  <title>
+    Contacts
+  </title>
+  <link rel="icon" href="Images/logo4.png">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script type="text/javascript">
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0.8)";
+        document.getElementById("underlay").style.height = "80px";
+        document.getElementById("logo").style.width = "80px";
+        document.getElementById("logo").style.margin = "0px";
+        document.getElementById("list-container").style.padding = "0px";
+        document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
+      }
+      else {
+        document.getElementById("underlay").style.backgroundColor = "rgba(0,0,0,0)";
+        document.getElementById("underlay").style.height = "100px";
+        document.getElementById("logo").style.width = "150px";
+        document.getElementById("logo").style.margin = "20px";
+        document.getElementById("list-container").style.paddingTop = "50px";
+        document.getElementById("navlist").style.backgroundColor = "rgb(0,0,0,0)";
+      }
+    })
+  </script>
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <div id="underlay">
+      <img id="logo" src="Images/logo3.png" alt="">
+      <div id="list-container">
+        <ul id=navlist>
+          <li><a href="index.html" class="active">home</a></li>
+          <li><a href="index.html">about</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="#footer">assistance</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
 
-    <section id="contact">
-        <div class="box">
-         <article>
-         <div class="header-text">
+  <section id="contact">
+    <div class="box">
+      <article>
+        <div class="header-text">
           <h1><b>CONTACT US</b></h1>
-          
-        </div>
-        
-            <div class="social-icons">
-            <h3><i class="material-icons" style="font-size:36px;">place</i> &nbsp;&nbsp; New Delhi, India</h3>
-            <h3><i class="material-icons" style="font-size:36px;">smartphone</i> &nbsp;&nbsp; +1 831 422 3905</h3>
-            <h3><i class="material-icons" style="font-size:36px;">mail</i> &nbsp;&nbsp; contact@FrostyFruits.com</h3>
-            </div>
-            </article>
-            <br>
-            <div class="section-right">
-            <form id="form-layout">
-              <p>Lets get in touch. Send us a message:</p>
-              <input type="text" placeholder="Name" required name="Name">
-              <input type="text" placeholder="Email" required name="Email">
-              <input type="text" placeholder="Subject" required name="Subject">
-              <input type="text" placeholder="Message" required name="Message">
-              <div class="bttn"><button type="submit">SEND MESSAGE</button></div>
-            </form>
-          </div>
-        
-        </div>
-      </section>
 
-      <div class="seperator1"></div>
-         
-    <footer id="footer">
-        <div class="container">
-          <p>Copyright &copy; <span id="peerich">FrostyFruits</span> 2021 | Designed and Developed by Richa Bharti</p>
         </div>
-      </footer>
-    </body>
-  </html>
+
+        <div class="social-icons">
+          <h3><i class="material-icons" style="font-size:36px;">place</i> &nbsp;&nbsp; New Delhi, India</h3>
+          <h3><i class="material-icons" style="font-size:36px;">smartphone</i> &nbsp;&nbsp; +1 831 422 3905</h3>
+          <h3><i class="material-icons" style="font-size:36px;">mail</i> &nbsp;&nbsp; contact@FrostyFruits.com</h3>
+        </div>
+      </article>
+      <br>
+      <div class="section-right">
+        <form id="form-layout">
+          <p>Lets get in touch. Send us a message:</p>
+          <input type="text" placeholder="Name" required name="Name">
+          <input type="text" placeholder="Email" required name="Email">
+          <input type="text" placeholder="Subject" required name="Subject">
+          <input type="text" placeholder="Message" required name="Message">
+        </form>
+        <div class="bttn"><button type="submit">SEND MESSAGE</button></div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="seperator1"></div>
+
+  <footer id="footer">
+    <div class="container">
+      <p>Copyright &copy; <span id="peerich">FrostyFruits</span> 2021 | Designed and Developed by Richa Bharti</p>
+    </div>
+  </footer>
+</body>
+
+</html>

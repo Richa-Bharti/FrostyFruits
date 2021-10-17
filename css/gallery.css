@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.5s ease 0s;
+}
+#underlay {
+  transition: all 0.3s ease 0s;
+  height: 100px;
+  padding: 5px 65px;
+}
+
+#navbar #logo {
+  transition: all 0.3s ease 0s;
+  width: 150px;
+  height: auto;
+}
+
+#navbar #list-container {
+  transition: all 0.3s ease 0s;
+  float: right;
+  /* border-bottom: solid #0755bc 1.5px; */
+  border: none;
+  border-radius: 0px;
+  padding-top: 15px;
+}
+
+#navbar #list-container ul {
+  font-size: 30px;
+  padding: 20px;
+  background: rgb(0, 0, 0, 0);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0);
+  font-weight: 300;
+}
+
+#navbar #list-container ul li {
+  display: inline-block;
+}
+
+/* @media (max-width: 950px) {
+  #navbar #list-container ul li {
+  }
+} */
+
+#navbar #list-container ul li a {
+  color: FloralWhite;
+  font-size: 17px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 5px 13px;
+}
+
+a:hover {
+  background: #0755bc;
+  transition: 0.5s;
+}
+
+@media (max-width: 950px) {
+  #navbar #list-container ul li a {
+    font-size: 15px;
+    font-weight: 800;
+  }
+}
+#gallery {
+  background: #f5a788;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 185vh;
+  padding: 60px 0px;
+  margin-top: 0px;
+}
+
+@media (max-width: 950px) {
+  #gallery {
+    height: 250vh;
+  }
+}
+
+#gallery {
+  padding-top: 85px;
+}
+
+#gallery h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-weight: normal;
+  margin: 50px;
+  font-weight: 400;
+}
+
+#gallery .box {
+  padding: 0px;
+
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 950px) {
+  #gallery .box {
+    flex-direction: column;
+  }
+}
+
+.out {
+  margin: auto;
+  width: 25%;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media (max-width: 950px) {
+  .out {
+    width: 70%;
+    margin-top: 40px;
+  }
+}
+
+.box1 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/orange2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box2 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/apple1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.box3 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/bnana1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.box4 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box5 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img9.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box6 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img12.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.box7 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img11.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box8 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img13.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box9 {
+  height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-image: url("../Images/img14.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.out:hover {
+  width: 35%;
+}
+
+@media (max-width: 950px) {
+  .out:hover {
+    width: 80%;
+  }
+}
+
+#footer {
+  display: flex;
+  background: #111;
+  height: 100px;
+}
+
+#footer .container {
+  margin: auto;
+  text-align: center;
+  padding: 5vh 0vh 2vh 0vh;
+  border-bottom: solid #0755bc 2px;
+  border-radius: 5px;
+  color: floralwhite;
+  background: #111;
+  width: 600px;
+  margin-left: 450px;
+}
